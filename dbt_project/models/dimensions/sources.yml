@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: cso_bronze
+    schema: cso_bronze
+    tables:
+      - name: bronze_population
+        description: "Raw CSO population data from API"
+        columns:
+          - name: county_name
+            tests: [not_null]
+          - name: census_year
+            tests: [not_null]
+          - name: population
+            tests: [not_null]
