@@ -1,8 +1,9 @@
-# 🇮🇪 Irish Census Data Warehouse
+# Irish Census Data Warehouse
 
 A star schema data warehouse built on Ireland's Central Statistics Office (CSO) Census data, tracking population across all 26 counties from 1841 to 2022. Built with Python, dbt, PostgreSQL, and Metabase — fully containerised with Docker.
 
-![Dashboard](docs/dashboard.png)
+<img width="1445" height="872" alt="dashboard" src="https://github.com/user-attachments/assets/6fc2dfab-572f-47a9-b2f5-c99b4470fb02" />
+
 
 ---
 
@@ -190,12 +191,6 @@ Go to [http://localhost:3000](http://localhost:3000) and connect to PostgreSQL.
 
 ---
 
-## 👤 Author
-
-Built as part of an Irish Data Engineering portfolio targeting €45k–€60k roles in Ireland.
-
-- MSc Business Analytics — University of Galway (NUIG)
-- Skills: Python · SQL · dbt · PostgreSQL · Docker · Star Schema · Data Warehousing
 
 ---
 
